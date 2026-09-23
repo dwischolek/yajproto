@@ -1,0 +1,17 @@
+[package]
+name = "yajproto"
+version = "0.0.1"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+log = "0.4.34"
+
+[dev-dependencies]
+cobs = "0.5.1"
+evdev = "0.13.2"
+env_logger = "0.11.11"
+serialport = "4.10.1"
+
+[[example]]
+name = "yajproto_linux"
