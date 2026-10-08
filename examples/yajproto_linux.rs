@@ -75,7 +75,7 @@ const AXIS_CODE_LIST: &[AbsoluteAxisCode] = &[
 ];
 
 const DEFAULT_DEVICE_NAME: &str = "YAJ-Proto";
-const DEFAULT_PORT_NAME: &str = "/dev/ttyACM0";
+const DEFAULT_PORT_NAME: &str = "/dev/ttyUSB0";
 const BAUD_RATE: u32 = 115_200;
 const READ_TIMEOUT: Duration = Duration::from_secs(10);
 
