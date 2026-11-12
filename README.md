@@ -2,8 +2,8 @@
 
 YAJ-Proto ("Yet Another Joystick Protocol") is a small controller protocol
 created for an Arduino game-controller project. It is loosely based on the
-IBus protocol. The arduino project will be released in a separate GitHub
-repository.
+IBus protocol. The accompanying Arduino project is available at
+[yajproto_controller](https://github.com/dwischolek/yajproto_controller).
 
 `yajproto` is the host side library for YAJ-Proto. It provides a parser and a 
 Linux serial-to-uinput example.
